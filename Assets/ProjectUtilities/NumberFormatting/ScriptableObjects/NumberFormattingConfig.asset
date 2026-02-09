@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fad970f53fe7444d9eb4a3a41b14f66, type: 3}
+  m_Name: NumberFormattingConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectUtilities.NumberFormatting.NumberFormattingConfig
+  _tiers:
+  - _threshold: 1000
+    _suffix: K
+  - _threshold: 1000000
+    _suffix: M
+  - _threshold: 1000000000
+    _suffix: B
+  - _threshold: 1000000000000
+    _suffix: T
+  - _threshold: 1000000000000000
+    _suffix: P
+  - _threshold: 1e+18
+    _suffix: E
+  - _threshold: 1e+21
+    _suffix: Z
+  - _threshold: 1e+24
+    _suffix: Y
+  _decimalPlacesWhenAbbreviated: 2
+  _decimalPlacesWhenFull: 0
+  _thousandsSeparator: ','
+  _prefix: 
